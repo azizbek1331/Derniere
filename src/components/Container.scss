@@ -1,0 +1,170 @@
+.container {
+    height: 820vh;
+    width: 100%;
+    background: linear-gradient(45deg, rgb(61, 59, 59), #4f4d5f5b, #617872, #77777ba5);
+    background-size: 300% 300%;
+    position: absolute;
+    top: 0;
+    z-index: -33;
+    animation: color 4s ease infinite;
+
+    @keyframes color {
+        0% {
+            background-position: 0 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0 50%;
+        }
+    }
+
+    @media screen and (max-width:1021px) {
+        height: 735vh;
+    }
+
+    @media screen and (max-width:841px) {
+        height: 785vh;
+    }
+
+    @media screen and (max-width:801px) {
+        height: 735vh;
+    }
+
+    @media screen and (max-width:731px) {
+        height: 775vh;
+    }
+
+    @media screen and (max-width:713px) {
+        height: 863vh;
+    }
+
+    @media screen and (max-width:701px) {
+        height: 918vh;
+    }
+
+    @media screen and (max-width:586px) {
+        height: 898vh;
+    }
+
+    @media screen and (max-width:581px) {
+        height: 948vh;
+    }
+
+    @media screen and (max-width:561px) {
+        height: 960vh;
+    }
+
+    @media screen and (max-width:541px) {
+        height: 965vh;
+    }
+
+    @media screen and (max-width:526px) {
+        height: 970vh;
+    }
+
+    @media screen and (max-width:452px) {
+        height: 968vh;
+    }
+
+    @media screen and (max-width:431px) {
+        height: 948vh;
+    }
+
+    @media screen and (min-height:933px) {
+        height: 800vh;
+    }
+
+    @media screen and (min-height:927px) {
+        height: 839vh;
+    }
+
+    @media screen and (min-height:916px) {
+        height: 795vh;
+    }
+
+    @media screen and (min-height:897px) {
+        height: 858vh;
+    }
+
+    @media screen and (min-height:853px) {
+        height: 841vh;
+    }
+
+    @media screen and (min-height:845px) {
+        height: 850vh;
+    }
+
+    @media screen and (min-height:813px) {
+        height: 848vh;
+    }
+
+    @media screen and (max-height:737px) {
+        height: 888vh;
+    }
+
+    @media screen and (max-height:668px) {
+        height: 970vh;
+    }
+
+    @media screen and (max-width:375px) {
+        height: 956vh;
+    }
+
+    @media screen and (min-height:741px) {
+        height: 903vh;
+    }
+
+    @media screen and (max-width:431px) {
+        height: 877vh;
+    }
+
+    @media screen and (max-width:415px) {
+        height: 868vh;
+    }
+
+    @media screen and (max-width:413px) {
+        height: 833vh;
+    }
+
+    @media screen and (max-width:391px) {
+        height: 885vh;
+    }
+
+    @media screen and (max-height:737px) {
+        height: 887vh;
+    }
+
+    @media screen and (max-height:668px) {
+        height: 949vh;
+    }
+
+    @media screen and (max-width:376px) {
+        height: 935vh;
+    }
+    @media screen and (max-width:361px) {
+        height: 991vh;
+    }
+    @media screen and (max-width:357px) {
+        height: 959vh;
+    }
+
+    @media screen and (max-width:353px) {
+        height: 961vh;
+    }
+
+    @media screen and (max-width:350px) {
+        height: 962vh;
+    }
+
+    @media screen and (max-height:569px) {
+        height: 1078vh;
+    }
+
+    @media screen and (max-height:481px) {
+        height: 1301vh;
+    }
+}

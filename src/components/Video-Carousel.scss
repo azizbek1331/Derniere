@@ -1,0 +1,391 @@
+.ondiv-main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+
+  @media screen and (max-width:840px) {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+  }
+
+  @media screen and (max-width:801px) {
+    height: 100vh;
+  }
+
+  @media screen and (max-width:731px) {
+    height: 140vh;
+  }
+
+  @media screen and (max-width:391px) {
+    height: 115vh;
+  }
+
+  @media screen and (min-height:933px) {
+    height: 105vh;
+  }
+
+  @media screen and (min-height:927px) {
+    height: 105vh;
+  }
+
+  @media screen and (min-height:853px) {
+    height: 115vh;
+  }
+
+  @media screen and (max-height:668px) {
+    height: 130vh;
+  }
+
+  @media screen and (max-height:569px) {
+    height: 130vh;
+  }
+
+  @media screen and (max-height:481px) {
+    height: 155vh;
+  }
+
+  @media screen and (max-height:393px) {
+    border: 2px solid red;
+    height: 190vh;
+    justify-content: flex-start;
+  }
+
+
+  .carnet {
+    background: url('../images/1.png');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    z-index: -2;
+    box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+
+    @media screen and (max-width:1061px) {
+      height: 200px;
+      width: 200px;
+    }
+
+    @media screen and (max-width:856px) {
+      width: 150px;
+      height: 150px;
+    }
+
+    @media screen and (max-width:801px) {
+      margin-top: 50px;
+    }
+
+    @media screen and (max-width:451px) {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  .carnette {
+    background: url('../images/1.png');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: -3;
+    right: -650px;
+    top: 400px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+
+    @media screen and (max-width:1061px) {
+      right: -450px;
+    }
+
+    @media screen and (max-width:856px) {
+      right: -320px;
+    }
+
+    @media screen and (max-width:856px) {
+      right: -220px;
+      width: 150px;
+      height: 150px;
+    }
+
+    @media screen and (max-width:731px) {
+      right: -80px;
+      width: 150px;
+      top: 600px;
+      height: 150px;
+    }
+
+    @media screen and (max-width:698px) {
+      right: -40px;
+      width: 150px;
+      top: 600px;
+      height: 150px;
+    }
+
+    @media screen and (max-width:556px) {
+      right: -10px;
+      width: 150px;
+      height: 150px;
+    }
+
+    @media screen and (max-width:366px) {
+      right: -90px;
+      width: 150px;
+      height: 150px;
+    }
+
+    @media screen and (max-width:451px) {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  .carnetette {
+    background: url('../images/1.png');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    z-index: -4;
+    right: 90px;
+    height: 250px;
+    width: 250px;
+    box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+
+    @media screen and (max-width:1061px) {
+      height: 200px;
+      width: 200px;
+    }
+
+    @media screen and (max-width:856px) {
+      right: -50px;
+    }
+
+    @media screen and (max-width:801px) {
+      margin-top: 100px;
+    }
+
+    @media screen and (max-width:556px) {
+      right: -100px;
+      width: 150px;
+      height: 150px;
+    }
+
+    @media screen and (max-width:857px) {
+      right: 90px;
+      width: 150px;
+      height: 150px;
+    }
+
+    @media screen and (max-width:756px) {
+      right: 90px;
+      width: 150px;
+      height: 150px;
+      margin-top: 150px;
+    }
+
+    @media screen and (max-width:731px) {
+      right: 90px;
+      width: 150px;
+      height: 150px;
+      margin-top: 350px;
+    }
+
+    @media screen and (max-width:693px) {
+      right: 20px;
+      width: 150px;
+      height: 150px;
+      margin-top: 350px;
+    }
+
+    // @media screen and (max-width:451px) {
+    //   right: 90px;
+    //   width: 120px;
+    //   height: 120px;
+    //   margin-top: 150px;
+    // }
+  }
+
+  .union-upwards {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 220px;
+
+    @media screen and (max-width:731px) {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      height: 120vh;
+    }
+
+    @media screen and (max-height:927px) {
+      height: 90vh;
+    }
+
+    @media screen and (max-height:853px) {
+      height: 100vh;
+    }
+
+    @media screen and (max-width:801px) {
+      margin-top: 100px;
+    }
+
+    @media screen and (max-height:933px) {
+      height: 94vh;
+    }
+
+    @media screen and (max-height:916px) {
+      height: 90vh;
+    }
+
+    @media screen and (max-height:569px) {
+      height: 98vh;
+    }
+
+    @media screen and (max-height:481px) {
+      height: 112vh;
+    }
+
+    @media screen and (max-height:393px) {
+      margin-top: 20px;
+      height: 175vh;
+    }
+
+    .player {
+      width: 60%;
+      background-color: #ffff;
+
+      @media screen and (max-width:1101px) {
+        max-width: 520px;
+      }
+
+      @media screen and (max-width:1031px) {
+        max-width: 420px;
+      }
+
+      @media screen and (max-width:961px) {
+        max-width: 400px;
+      }
+
+      @media screen and (max-width:871px) {
+        max-width: 390px;
+      }
+
+      @media screen and (max-width:870px) {
+        max-width: 390px;
+      }
+
+      @media screen and (max-width:761px) {
+        max-width: 500px;
+        margin: 0px 0 auto 30px;
+      }
+
+      @media screen and (max-width:731px) {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+
+      @media screen and (max-width:706px) {
+        max-width: 520px;
+        margin: 0px 0 auto 80px;
+      }
+
+      @media screen and (max-width:676px) {
+        max-width: 500px;
+        margin: 0px 0 auto 80px;
+      }
+
+      @media screen and (max-width:646px) {
+        max-width: 480px;
+        margin: 0px 0 auto 80px;
+      }
+
+      @media screen and (max-width:631px) {
+        max-width: 460px;
+        margin: 0px 0 auto 80px;
+      }
+
+      @media screen and (max-width:611px) {
+        max-width: 440px;
+        margin: 0px 0 auto 80px;
+      }
+
+      @media screen and (max-width:591px) {
+        max-width: 420px;
+        margin: 0px 0 auto 80px;
+      }
+
+      @media screen and (max-width:576px) {
+        max-width: 420px;
+        margin: 0px 0 auto 60px;
+      }
+
+      @media screen and (max-width:530px) {
+        max-width: 400px;
+        margin: 0px 0 auto 60px;
+      }
+
+      @media screen and (max-width:511px) {
+        max-width: 380px;
+        margin: 0px 0 auto 50px;
+      }
+
+      @media screen and (max-width:481px) {
+        max-width: 350px;
+        margin: 0px 0 auto 40px;
+      }
+
+      @media screen and (max-width:426px) {
+        max-width: 300px;
+        margin: 0px 0 auto 50px;
+      }
+
+      @media screen and (max-width:386px) {
+        max-width: 280px;
+        margin: 0px 0 auto 50px;
+      }
+
+      @media screen and (max-width:371px) {
+        max-width: 250px;
+        margin: 0px 0 auto 60px;
+      }
+
+      @media screen and (max-width:356px) {
+        max-width: 230px;
+        margin: 0px 0 auto 60px;
+      }
+
+      @media screen and (max-width:321px) {
+        max-width: 220px;
+        margin: 0px 0 auto 50px;
+      }
+    }
+  }
+
+  @keyframes animate {
+    0% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+      border-radius: 60% 40% 30% 70%/60% 30% 40% 70%;
+    }
+  }
+}

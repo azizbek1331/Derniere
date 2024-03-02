@@ -1,0 +1,1509 @@
+.card-main {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    // border: 4px solid red;
+
+    @media screen and (max-width:1335px) {
+        height: 1080px;
+    }
+
+    @media screen and (max-width:1021px) {
+        height: 1000px;
+    }
+
+    @media screen and (max-width:713px) {
+        height: 1500px;
+    }
+
+    @media screen and (max-width:593px) {
+        height: 1550px;
+    }
+
+    @media screen and (max-width:541px) {
+        height: 1525px;
+    }
+
+    @media screen and (max-width:525px) {
+        height: 1555px;
+    }
+
+    @media screen and (min-height:916px) {
+        height: 1715px;
+    }
+
+    @media screen and (min-height:916px) {
+        height: 1560px;
+    }
+
+    @media screen and (min-height:897px) {
+        height: 1655px;
+    }
+
+    @media screen and (min-height:853px) {
+        // border: 2px solid red;
+        height: 1900px;
+    }
+
+    @media screen and (min-height:853px) {
+        height: 1890px;
+    }
+
+    @media screen and (min-height:845px) {
+        height: 1775px;
+    }
+
+    @media screen and (max-height:393px) {
+        height: 1600px;
+    }
+
+
+    @media screen and (max-width:389px) {
+        height: 1605px;
+    }
+
+    @media screen and (min-height:813px) {
+        height: 1855px;
+    }
+
+    @media screen and (min-height:813px) {
+        height: 1635px;
+    }
+
+    @media screen and (max-height:737px) {
+        height: 1724px;
+    }
+
+    @media screen and (max-height:668px) {
+        height: 1800px;
+    }
+
+    @media screen and (max-width:375px) {
+        height: 1595px;
+    }
+
+    @media screen and (max-width:371px) {
+        height: 1605px;
+    }
+
+    @media screen and (min-height:741px) {
+        height: 1720px;
+    }
+
+    @media screen and (max-width:431px) {
+        height: 1565px;
+    }
+
+    @media screen and (max-width:391px) {
+        // border: 3px solid blue;
+        height: 1900px;
+    }
+
+    @media screen and (max-height:737px) {
+        height: 1570px;
+    }
+
+    @media screen and (max-width:376px) {
+        height: 1850px;
+    }
+
+    @media screen and (max-width:356px) {
+        height: 1625px;
+    }
+
+    @media screen and (max-width:354px) {
+        height: 1735px;
+    }
+
+    @media screen and (max-width:349px) {
+        height: 1795px;
+    }
+
+    @media screen and (max-width:326px) {
+        height: 1705px;
+    }
+
+    @media screen and (max-height:569px) {
+        height: 1750px;
+        border: 2px solid blue;
+    }
+
+
+    .outer {
+        position: relative;
+        z-index: -2;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        width: 250px;
+        height: auto;
+
+        @media screen and (max-width:1021px) {
+            top: -90px;
+        }
+
+
+        h1 {
+            position: absolute;
+            letter-spacing: 100px;
+            text-transform: uppercase;
+            color: #819ad1;
+            font-weight: 300;
+            writing-mode: vertical-lr;
+            left: -80px;
+            font-size: 80px;
+            transform: rotate(180deg);
+
+            @media screen and (max-width:713px) {
+                top: 100px;
+                letter-spacing: 150px;
+            }
+
+            @media screen and (max-width:613px) {
+                top: 100px;
+                margin: 15px;
+                font-size: 70px;
+                letter-spacing: 150px;
+            }
+
+            @media screen and (max-width:476px) {
+                top: 100px;
+                margin-left: 30px;
+                // margin: 15px;
+                font-size: 70px;
+                letter-spacing: 150px;
+            }
+        }
+    }
+
+    .overlay-section {
+        width: 100%;
+        height: 150vh;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        z-index: -4;
+
+        .overlay-first {
+            width: 35%;
+            height: 150vh;
+            background-color: #202020;
+            position: relative;
+            top: 0;
+
+            @media screen and (max-width:1335px) {
+                height: 1080px;
+            }
+
+            @media screen and (max-width:1021px) {
+                height: 1000px;
+            }
+
+            @media screen and (max-width:713px) {
+                height: 1500px;
+            }
+
+            @media screen and (max-width:593px) {
+                height: 1550px;
+            }
+
+            @media screen and (max-width:541px) {
+                height: 1520px;
+            }
+
+            @media screen and (max-width:525px) {
+                height: 1550px;
+            }
+
+            @media screen and (max-width:511px) {
+                height: 1550px;
+            }
+
+            // @media screen and (max-height:897px) {
+            //     height: 1655px;
+            // }
+
+            @media screen and (max-width:401px) {
+                height: 1550px;
+            }
+
+            // @media screen and (max-height:853px) {
+            //     height: 1890px;
+            // }
+
+            // @media screen and (max-height:845px) {
+            //     height: 1775px;
+            // }
+
+            // @media screen and (max-height:393px) {
+            //     height: 1600px;
+            // }
+
+            @media screen and (max-width:389px) {
+                height: 1605px;
+            }
+
+            @media screen and (max-width:385px) {
+                height: 1605px;
+            }
+
+            @media screen and (max-width:376px) {
+                height: 1605px;
+            }
+
+            // @media screen and (max-height:813px) {
+            //     height: 1855px;
+            // }
+
+            // @media screen and (max-height:813px) {
+            //     height: 1635px;
+            // }
+
+            // @media screen and (max-height:737px) {
+            //     height: 1720px;
+            // }
+
+            // @media screen and (max-height:668px) {
+            //     height: 1800px;
+            // }
+
+            @media screen and (max-width:375px) {
+                height: 1605px;
+            }
+
+            @media screen and (max-width:371px) {
+                height: 1605px;
+            }
+
+            @media screen and (min-height:741px) {
+                height: 1720px;
+            }
+
+            @media screen and (max-width:431px) {
+                height: 1565px;
+            }
+
+            @media screen and (max-width:391px) {
+                height: 1900px;
+            }
+
+            @media screen and (max-width:376px) {
+                height: 1850px;
+            }
+
+            // @media screen and (max-height:737px) {
+            //     height: 1570px;
+            // }
+
+            @media screen and (max-width:356px) {
+                height: 1620px;
+            }
+
+            @media screen and (max-width:354px) {
+                height: 1735px;
+            }
+
+            @media screen and (max-width:349px) {
+                height: 1795px;
+            }
+
+            @media screen and (max-width:326px) {
+                height: 1705px;
+            }
+
+            // @media screen and (max-height:569px) {
+            //     height: 1747px;
+            // }
+
+        }
+
+        .overlay-second {
+            width: 65%;
+            height: 150vh;
+            background-color: #bebebe;
+            position: relative;
+            top: 0;
+
+            @media screen and (max-width:1335px) {
+                height: 1080px;
+            }
+
+            @media screen and (max-width:1021px) {
+                height: 1000px;
+            }
+
+            @media screen and (max-width:713px) {
+                height: 1500px;
+            }
+
+            @media screen and (max-width:593px) {
+                height: 1550px;
+            }
+
+            @media screen and (max-width:541px) {
+                height: 1520px;
+            }
+
+            @media screen and (max-width:525px) {
+                height: 1550px;
+            }
+
+            @media screen and (max-width:511px) {
+                height: 1550px;
+            }
+
+            // @media screen and (max-height:897px) {
+            //     height: 1655px;
+            // }
+
+            @media screen and (max-width:401px) {
+                height: 1550px;
+            }
+
+            // @media screen and (max-height:853px) {
+            //     height: 1890px;
+            // }
+
+            // @media screen and (max-height:845px) {
+            //     height: 1775px;
+            // }
+
+            // @media screen and (max-height:393px) {
+            //     height: 1600px;
+            // }
+
+            @media screen and (max-width:389px) {
+                height: 1605px;
+            }
+
+            @media screen and (max-width:385px) {
+                height: 1605px;
+            }
+
+            @media screen and (max-width:376px) {
+                height: 1900px;
+            }
+
+            // @media screen and (max-height:813px) {
+            //     height: 1635px;
+            // }
+
+            // @media screen and (max-height:813px) {
+            //     height: 1635px;
+            // }
+
+            // @media screen and (max-height:737px) {
+            //     height: 1720px;
+            // }
+
+            // @media screen and (max-height:668px) {
+            //     height: 1800px;
+            // }
+
+            @media screen and (max-width:375px) {
+                height: 1605px;
+            }
+
+            @media screen and (max-width:371px) {
+                height: 1600px;
+            }
+
+            @media screen and (min-height:741px) {
+                height: 1720px;
+            }
+
+            @media screen and (max-width:431px) {
+                height: 1565px;
+            }
+
+
+            @media screen and (max-width:376px) {
+                height: 1850px;
+            }
+            // @media screen and (max-height:737px) {
+            //     height: 1570px;
+            // }
+
+            @media screen and (max-width:356px) {
+                height: 1620px;
+            }
+
+            @media screen and (max-width:354px) {
+                height: 1735px;
+            }
+
+            @media screen and (max-width:349px) {
+                height: 1795px;
+            }
+
+            @media screen and (max-width:326px) {
+                height: 1705px;
+            }
+
+            @media screen and (max-height:569px) {
+                height: 1747px;
+            }
+        }
+    }
+
+    .card-option {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 40px;
+
+        @media screen and (max-width:1021px) {
+            width: 100%;
+        }
+
+        @media screen and (max-width:861px) {
+            margin-left: -100px;
+        }
+
+        @media screen and (max-width:713px) {
+            width: 70%;
+            height: 75vh;
+            margin: 0 auto;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 125px;
+            background: rgba(255, 255, 255, .1);
+            box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+            border-radius: 50px;
+            border-right: 2px solid rgba(255, 255, 255, .2);
+            border-bottom: 2px solid rgba(255, 255, 255, .2);
+            backdrop-filter: blur(20px);
+        }
+
+        @media screen and (max-width:713px) {
+            height: 85vh;
+        }
+
+        @media screen and (max-width:593px) {
+            height: 90vh;
+        }
+
+        @media screen and (max-width:523px) {
+            height: 90vh;
+        }
+
+        @media screen and (max-width:501px) {
+            height: 95vh;
+        }
+
+        @media screen and (max-width:501px) {
+            height: 100vh;
+        }
+
+        @media screen and (max-width:446px) {
+            height: 100vh;
+        }
+
+        @media screen and (max-width:412px) {
+            height: 105vh;
+        }
+
+        @media screen and (min-height:853px) {
+            height: 80vh;
+        }
+
+        @media screen and (max-width:391px) {
+            height: 100vh;
+        }
+
+        @media screen and (min-height:927px) {
+            height: 72vh;
+        }
+
+        @media screen and (min-height:916px) {
+            height: 70vh;
+        }
+
+        @media screen and (min-height:813px) {
+            height: 75vh;
+        }
+
+        @media screen and (min-height:813px) {
+            height: 64vh;
+        }
+
+        @media screen and (max-width:391px) {
+            height: 72vh;
+        }
+
+        @media screen and (max-height:668px) {
+            height: 88vh;
+        }
+
+        @media screen and (max-height:393px) {
+            height: 130vh;
+            gap: 95px;
+        }
+
+        @media screen and (max-width:369px) {
+            height: 115vh;
+        }
+
+        @media screen and (max-width:329px) {
+            height: 120vh;
+        }
+
+        @media screen and (max-width:327px) {
+            height: 90vh;
+        }
+
+        @media screen and (max-height:569px) {
+            height: 105vh;
+        }
+
+        @media screen and (max-height:481px) {
+            height: 125vh;
+        }
+
+        .card {
+            width: 320px;
+            height: 300px;
+            border-radius: 20px;
+            clip-path: circle();
+            background-color: #A7BEAE;
+            margin-left: 220px;
+            display: flex;
+            flex-direction: row;
+
+            @media screen and (max-width:713px) {
+                width: 300px;
+                position: relative;
+                left: -150px;
+                height: 50%;
+            }
+
+            @media screen and (max-height:813px) {
+                top: -40px;
+            }
+
+            @media screen and (max-width:628px) {
+                width: 200px;
+                left: -100px;
+                // margin-left: -20px;
+            }
+
+            @media screen and (max-width:587px) {
+                width: 200px;
+                left: -100px;
+                // margin-left: -20px;
+            }
+
+            @media screen and (max-width:558px) {
+                width: 200px;
+                left: -120px;
+                // margin-left: -20px;
+            }
+
+            @media screen and (max-width:538px) {
+                width: 200px;
+                left: -140px;
+                // margin-left: -20px;
+            }
+
+            @media screen and (max-width:499px) {
+                width: 200px;
+                left: -150px;
+                // margin-left: -20px;
+            }
+
+            @media screen and (max-width:475px) {
+                width: 200px;
+                left: -160px;
+                // margin-left: -20px;
+            }
+
+            @media screen and (max-width:446px) {
+                width: 200px;
+                left: -170px;
+                // margin-left: -20px;
+            }
+
+            @media screen and (max-width:421px) {
+                width: 200px;
+                left: -180px;
+                // margin-left: -20px;
+            }
+
+            @media screen and (max-height:927px) {
+                top: -40px;
+            }
+
+            @media screen and (max-height:916px) {
+                top: -15px;
+            }
+
+            @media screen and (max-height:897px) {
+                top: -20px;
+            }
+
+            @media screen and (max-width:381px) {
+                width: 200px;
+                left: -190px;
+                // margin-left: -20px;
+            }
+
+            @media screen and (max-width:361px) {
+                width: 200px;
+                left: -195px;
+                // margin-left: -20px;
+            }
+
+            @media screen and (max-width:344px) {
+                width: 200px;
+                left: -200px;
+                // margin-left: -20px;
+            }
+
+            @media screen and (max-width:326px) {
+                width: 200px;
+                left: -205px;
+                // margin-left: -20px;
+            }
+
+            .card-img {
+                width: 300px;
+                height: 100%;
+                object-fit: contain;
+                margin-left: -15px;
+                transform-style: preserve-3d;
+                animation: rotate 20s linear infinite;
+
+                @media screen and (max-width:1021px) {
+                    width: 250px;
+                }
+            }
+        }
+
+        .card-descr {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            @media screen and (max-height:927px) {
+                margin-top: -30px;
+            }
+
+            @media screen and (max-height:916px) {
+                margin-top: -5px;
+            }
+
+            @media screen and (max-width:376px) {
+                margin-top: -45px;
+            }
+
+            @media screen and (min-height:813px) {
+                margin-top: -20px;
+            }
+
+            @media screen and (max-height:569px) {
+                margin-top: -63px;
+            }
+
+            h1 {
+                color: #317773;
+                font-family: 'Fahkwang', sans-serif;
+
+                @media screen and (max-width:722px) {
+                    margin-left: -10px;
+                }
+
+                @media screen and (max-width:713px) {
+                    width: 300px;
+                    position: relative;
+                    left: 120px;
+                    height: 100%;
+                }
+
+                @media screen and (max-width:713px) {
+                    margin-top: -120px;
+                }
+
+                @media screen and (max-width:558px) {
+                    width: 230px;
+                    left: 70px;
+                }
+
+                @media screen and (max-width:560px) {
+                    left: 60px;
+                }
+
+                @media screen and (max-width:475px) {
+                    left: 55px;
+                }
+
+                @media screen and (max-width:446px) {
+                    left: 40px;
+                }
+
+                @media screen and (max-width:422px) {
+                    left: 30px;
+                }
+
+                @media screen and (max-width:382px) {
+                    left: 20px;
+                }
+
+                @media screen and (max-height:813px) {
+                    left: 28px;
+                }
+
+                @media screen and (max-width:351px) {
+                    left: 20px;
+                    font-size: 25px;
+                }
+
+                @media screen and (max-height:569px) {
+                    left: 29px;
+                }
+
+            }
+
+            p {
+                width: 80%;
+                font-size: 22px;
+                font-family: 'Fahkwang', sans-serif;
+                color: aliceblue;
+
+                @media screen and (max-width:1141px) {
+                    font-size: 19px;
+                }
+
+                @media screen and (max-width:1228px) {
+                    width: 100%;
+                }
+
+                @media screen and (max-width:1021px) {
+                    font-size: 15px;
+                }
+
+                @media screen and (max-width:861px) {
+                    font-size: 13px;
+                }
+
+                @media screen and (max-width:713px) {
+                    font-size: 13px;
+                    width: 90%;
+                    margin-left: 20px;
+                }
+
+                @media screen and (max-width:701px) {
+                    font-size: 13px;
+                    width: 90%;
+                }
+
+                @media screen and (max-width:593px) {
+                    font-size: 13px;
+                    width: 90%;
+                }
+
+                @media screen and (max-height:393px) {
+                    height: -420px;
+                }
+            }
+        }
+    }
+
+    .card-options {
+        width: 100%;
+        height: 42vh;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+
+        @media screen and (max-width:713px) {
+            width: 70%;
+            height: 75vh;
+            margin: 0 auto;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 125px;
+            background: rgba(255, 255, 255, .1);
+            box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+            border-radius: 50px;
+            border-right: 2px solid rgba(255, 255, 255, .2);
+            border-bottom: 2px solid rgba(255, 255, 255, .2);
+            backdrop-filter: blur(20px);
+        }
+
+        @media screen and (max-width:713px) {
+            height: 85vh;
+        }
+
+        @media screen and (max-width:597px) {
+            height: 90vh;
+        }
+
+        @media screen and (max-width:500px) {
+            height: 700px;
+        }
+
+        @media screen and (max-width:446px) {
+            height: 450px;
+        }
+
+        @media screen and (max-width:413px) {
+            height: 850px;
+        }
+
+        @media screen and (min-height:916px) {
+            height: 525px;
+        }
+
+        @media screen and (min-height:853px) {
+            border: 2px solid red;
+            height: 530px;
+        }
+
+        @media screen and (min-height:853px) {
+            height: 445px;
+        }
+
+        @media screen and (min-height:813px) {
+            height: 475px;
+        }
+
+        @media screen and (max-height:813px) {
+            height: 427px;
+        }
+
+        @media screen and (max-width:376px) {
+            height: 475px;
+        }
+
+        @media screen and (max-width:326px) {
+            height: 500px;
+        }
+
+        @media screen and (max-height:481px) {
+            height: 490px;
+        }
+
+        .card-second {
+            width: 320px;
+            height: 300px;
+            border-radius: 20px;
+            clip-path: circle();
+            background-color: #A7BEAE;
+            margin-left: 400px;
+
+            @media screen and (max-width:1141px) {
+                margin-left: 290px;
+            }
+
+            @media screen and (max-width:964px) {
+                margin-left: 300px;
+            }
+
+            @media screen and (max-width:823px) {
+                margin-left: 250px;
+            }
+
+            @media screen and (max-width:713px) {
+                margin-left: 60px;
+            }
+
+            @media screen and (max-width:713px) {
+                width: 370px;
+                height: 250px;
+            }
+
+            @media screen and (max-width:676px) {
+                width: 350px;
+                height: 250px;
+            }
+
+            @media screen and (max-width:646px) {
+                width: 330px;
+                height: 250px;
+            }
+
+            @media screen and (max-width:626px) {
+                width: 300px;
+                height: 250px;
+            }
+
+            @media screen and (max-width:591px) {
+                width: 290px;
+                height: 250px;
+            }
+
+            @media screen and (max-width:571px) {
+                width: 270px;
+                height: 220px;
+            }
+
+            @media screen and (max-width:546px) {
+                width: 250px;
+                height: 220px;
+            }
+
+            @media screen and (max-width:516px) {
+                width: 230px;
+                height: 220px;
+            }
+
+            @media screen and (max-width:489px) {
+                width: 210px;
+                height: 220px;
+            }
+
+            @media screen and (max-width:456px) {
+                width: 200px;
+                height: 220px;
+            }
+
+            @media screen and (max-width:445px) {
+                width: 190px;
+                height: 220px;
+                margin-left: 60px;
+            }
+
+            @media screen and (max-width:421px) {
+                width: 190px;
+                height: 220px;
+                margin-left: 50px;
+            }
+
+            @media screen and (max-width:400px) {
+                width: 190px;
+                height: 220px;
+                margin-left: 40px;
+            }
+
+            @media screen and (max-width:366px) {
+                width: 190px;
+                height: 220px;
+                margin-left: 30px;
+            }
+
+            @media screen and (max-width:356px) {
+                width: 190px;
+                height: 220px;
+                margin-left: 20px;
+            }
+
+            .card-photo {
+                width: 400px;
+                height: 100%;
+                margin: 50px 0px 0px -40px;
+                object-fit: contain;
+                border-radius: 15px;
+                transform-style: preserve-3d;
+                animation: rotate 20s linear infinite;
+
+                @media screen and (max-width:1021px) {
+                    width: 250px;
+                }
+            }
+        }
+
+        .card-descr {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            @media screen and (max-width:713px) {
+                margin-top: -120px;
+            }
+
+            h1 {
+                color: #317773;
+                font-family: 'Fahkwang', sans-serif;
+
+                @media screen and (max-width:728px) {
+                    margin-left: -10px;
+                }
+
+                @media screen and (max-width:713px) {
+                    margin-left: 120px;
+                }
+
+                @media screen and (max-width:595px) {
+                    margin-left: 110px;
+                }
+
+                @media screen and (max-width:566px) {
+                    margin-left: 90px;
+                }
+
+                @media screen and (max-width:595px) {
+                    margin-left: 70px;
+                }
+
+                @media screen and (max-width:431px) {
+                    margin-left: 60px;
+                }
+
+                @media screen and (max-width:595px) {
+                    margin-left: 30px;
+                }
+
+                @media screen and (max-width:376px) {
+                    margin-left: 20px;
+                }
+
+                @media screen and (min-height:813px) {
+                    margin-left: 15px;
+                }
+
+                @media screen and (max-width:370px) {
+                    // margin-left: 2px;
+                    font-size: 25px;
+                }
+
+                @media screen and (max-width:375px) {
+                    font-size: 24px;
+                }
+
+                @media screen and (max-width:356px) {
+                    margin-left: 20px;
+                }
+            }
+
+            p {
+                width: 80%;
+                font-size: 22px;
+                font-family: 'Fahkwang', sans-serif;
+                color: aliceblue;
+
+                @media screen and (max-width:1235px) {
+                    font-size: 20px;
+                    width: 95%;
+                }
+
+                @media screen and (max-width:1141px) {
+                    font-size: 18px;
+                    width: 85%;
+                    border: 2px solid red;
+                }
+
+                @media screen and (max-width:1021px) {
+                    font-size: 15px;
+                }
+
+                @media screen and (max-width:861px) {
+                    font-size: 13px;
+                }
+
+                @media screen and (max-width:751px) {
+                    font-size: 13px;
+                    width: 90%;
+                    border: 2px solid red;
+                }
+
+                @media screen and (max-width:713px) {
+                    font-size: 13px;
+                    width: 90%;
+                    border: 2px solid red;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+
+    .card-muted {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 25px;
+
+        @media screen and (max-width:713px) {
+            width: 70%;
+            margin: 0 auto;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 125px;
+            background: rgba(255, 255, 255, .1);
+            box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+            border-radius: 50px;
+            border-right: 2px solid rgba(255, 255, 255, .2);
+            border-bottom: 2px solid rgba(255, 255, 255, .2);
+            backdrop-filter: blur(20px);
+            height: 100vh;
+        }
+
+        @media screen and (max-width:561px) {
+            height: 80vh;
+        }
+
+        // @media screen and (max-height:933px) {
+        //     height: 57vh;
+        // }
+
+        // @media screen and (max-height:927px) {
+        //     height: 55vh;
+        // }
+
+        // @media screen and (max-height:916px) {
+        //     height: 60vh;
+        // }
+
+        @media screen and (max-width:406px) {
+            height: 80vh;
+        }
+
+        // @media screen and (max-height:853px) {
+        //     height: 72vh;
+        // }
+
+        // @media screen and (max-height:393px) {
+        //     height: 125vh;
+        //     gap: 150px;
+        // }
+
+
+        @media screen and (min-height:927px) {
+            height: 73vh;
+        }
+
+        @media screen and (min-height:845px) {
+            height: 66vh;
+        }
+
+        @media screen and (min-height:813px) {
+            height: 75vh;
+        }
+
+        @media screen and (min-height:813px) {
+            height: 72vh;
+        }
+
+        @media screen and (min-height:813px) {
+            height: 65vh;
+        }
+
+        @media screen and (max-width:391px) {
+            height: 69vh;
+        }
+
+        @media screen and (max-height:737px) {
+            height: 70vh;
+        }
+
+        @media screen and (max-height:668px) {
+            height: 87vh;
+        }
+
+        @media screen and (max-width:376px) {
+            height: 85vh;
+        }
+
+        @media screen and (max-width:371px) {
+            height: 80vh;
+        }
+
+        @media screen and (max-width:353px) {
+            height: 95vh;
+        }
+
+        @media screen and (max-width:326px) {
+            height: 78vh;
+        }
+
+        @media screen and (max-width:321px) {
+            height: 80vh;
+        }
+
+        @media screen and (max-height:569px) {
+            height: 90vh;
+        }
+
+        @media screen and (max-height:481px) {
+            height: 105vh;
+        }
+
+        .card {
+            width: 320px;
+            height: 300px;
+            border-radius: 20px;
+            clip-path: circle();
+            background-color: #A7BEAE;
+            margin-left: 220px;
+            display: flex;
+            flex-direction: row;
+
+            @media screen and (max-width:861px) {
+                margin-left: 150px;
+            }
+
+            @media screen and (max-width:713px) {
+                margin-left: 140px;
+                width: 250px;
+            }
+
+            @media screen and (max-width:666px) {
+                margin-left: 60px;
+            }
+
+            @media screen and (max-width:631px) {
+                margin-left: 55px;
+            }
+
+            @media screen and (max-width:606px) {
+                margin-left: 45px;
+            }
+
+            @media screen and (max-width:586px) {
+                margin-left: 35px;
+            }
+
+            @media screen and (max-width:593px) {
+                height: 350px;
+            }
+
+            @media screen and (max-width:556px) {
+                margin-left: 25px;
+            }
+
+            @media screen and (max-width:531px) {
+                margin-left: 15px;
+            }
+
+            @media screen and (max-width:501px) {
+                width: 230px;
+                margin-left: 55px;
+            }
+
+            @media screen and (max-width:476px) {
+                margin-left: 50px;
+            }
+
+            @media screen and (max-width:476px) {
+                margin-left: 40px;
+            }
+
+            @media screen and (max-width:446px) {
+                width: 200px;
+                margin-left: 45px;
+            }
+
+            @media screen and (max-width:411px) {
+                width: 200px;
+                margin-left: 35px;
+            }
+
+            @media screen and (max-width:376px) {
+                height: 200px;
+                margin-top: 30px;
+            }
+
+            @media screen and (min-height:927px) {
+                margin-top: -50px;
+            }
+
+            @media screen and (min-height:813px) {
+                margin-top: -50px;
+            }
+
+            @media screen and (max-width:371px) {
+                width: 200px;
+                margin-left: 25px;
+            }
+
+            @media screen and (max-width:351px) {
+                width: 200px;
+                margin-left: 15px;
+            }
+
+            .card-peinture {
+                width: 300px;
+                height: 100%;
+                margin-top: 25px;
+                object-fit: contain;
+                border-radius: 15px;
+                transform-style: preserve-3d;
+                animation: rotate 20s linear infinite;
+
+                @media screen and (max-width:1021px) {
+                    width: 200px;
+                }
+
+                @media screen and (max-width:713px) {
+                    width: 200px;
+                }
+            }
+        }
+
+        .card-description {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            @media screen and (max-width:713px) {
+                margin-top: -50px;
+            }
+
+            @media screen and (max-width:376px) {
+                margin-top: 7px;
+            }
+
+            @media screen and (max-height:569px) {
+                margin-top: -115px;
+            }
+
+            h1 {
+                color: #317773;
+                font-family: 'Fahkwang', sans-serif;
+
+                @media screen and (max-width:713px) {
+                    margin-left: 120px;
+                    margin-top: -60px;
+                }
+
+                @media screen and (max-width:645px) {
+                    margin-left: 90px;
+                    margin-top: -60px;
+                }
+
+                @media screen and (max-width:626px) {
+                    margin-left: 80px;
+                    margin-top: -60px;
+                }
+
+                @media screen and (max-width:713px) {
+                    margin-left: 70px;
+                    margin-top: -60px;
+                }
+
+                @media screen and (max-width:576px) {
+                    margin-left: 60px;
+                    margin-top: -60px;
+                }
+
+                @media screen and (max-width:515px) {
+                    font-size: 30px;
+                    margin-left: 40px;
+                }
+
+                @media screen and (max-width:511px) {
+                    margin-left: 30px;
+                    font-size: 30px;
+                    margin-top: -60px;
+                }
+
+                @media screen and (max-width:501px) {
+                    margin-left: 30px;
+                    margin-top: -60px;
+                }
+
+                @media screen and (max-width:456px) {
+                    margin-left: 20px;
+                    margin-top: -60px;
+                }
+
+                @media screen and (max-width:436px) {
+                    margin-left: 30px;
+                    font-size: 25px;
+                    margin-top: -100px;
+                }
+
+                @media screen and (max-height:813px) {
+                    font-size: 24px;
+                    margin-left: 20px;
+                }
+
+                @media screen and (max-height:393px) {
+                    margin-top: -120px;
+                }
+
+                @media screen and (max-width:371px) {
+                    margin-left: 20px;
+                    margin-top: -60px;
+                }
+
+                @media screen and (max-width:375px) {
+                    font-size: 24px;
+                }
+
+                @media screen and (max-width:353px) {
+                    font-size: 22px;
+                }
+
+                @media screen and (max-width:344px) {
+                    margin-left: 20px;
+                    font-size: 22px;
+                    margin-top: -60px;
+                }
+
+                @media screen and (max-width:326px) {
+                    font-size: 21px;
+                }
+
+                @media screen and (max-width:321px) {
+                    margin-left: 10px;
+                }
+            }
+
+            p {
+                width: 80%;
+                font-size: 22px;
+                font-family: 'Fahkwang', sans-serif;
+                color: aliceblue;
+
+                @media screen and (max-width:1141px) {
+                    font-size: 18px;
+                    width: 70%;
+                }
+
+                @media screen and (max-width:1235px) {
+                    font-size: 20px;
+                    width: 100%;
+                }
+
+                @media screen and (max-width:1021px) {
+                    font-size: 15px;
+                }
+
+                @media screen and (max-width:861px) {
+                    font-size: 13px;
+                }
+
+                @media screen and (max-width:861px) {
+                    font-size: 16px;
+                    width: 100%;
+                }
+
+                @media screen and (max-width:751px) {
+                    font-size: 13px;
+                    width: 100%;
+                }
+
+                @media screen and (max-width:713px) {
+                    font-size: 14px;
+                    width: 90%;
+                    margin-left: 20px;
+                }
+
+                @media screen and (max-height:393px) {
+                    // margin-top: -30px;
+                    height: 58vh;
+                }
+
+                @media screen and (max-width:326px) {
+                    font-size: 12px;
+                }
+
+            }
+        }
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotateY(0deg);
+        }
+
+        to {
+            transform: rotateY(360deg);
+        }
+    }
+}

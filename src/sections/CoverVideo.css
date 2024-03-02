@@ -1,0 +1,43 @@
+.video-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: -90px;
+}
+video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.title-container {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 50px;
+    right: 0;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-side {
+    display: flex;
+    flex-direction: row;
+}
+
+.curse {
+    font-size: 150px;
+    color: aliceblue;
+    /* font-family: "Kaushan Script"; */
+}
+
+.esperer {
+    /* font-family: "Sirin Stencil"; */
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+}
+ 

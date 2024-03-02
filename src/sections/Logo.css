@@ -1,0 +1,14 @@
+.logo-navbar {
+    position: relative;
+    top: 2.5rem;
+    left: 4rem;
+    z-index: 1;
+    width: 100%;
+    height: 90px;
+    width: fit-content;
+}
+@media screen and (max-width:850px) {
+    .logo-navbar img {
+        border: 12px solid blue;
+    }
+}
